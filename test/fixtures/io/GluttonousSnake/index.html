@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="page">
+		<canvas id="gs" class="gs" width="300" height="380"></canvas>
+		<div class="opt">
+			<span class="score_panel">Score:</span>
+			<span class="score">0</span>
+			<table>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td class="key_top" id="key_top"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="key_left" id="key_left"></td>
+                        <td></td>
+                        <td class="key_right" id="key_right"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="key_down" id="key_down"></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+		</div>
+	</div>
+	<div class="alert" id="alert">
+        <span class="over">游戏结束</span>
+        <span class="result">得分:<span class="score">0</span></span>
+        <span class="restart" id="restart">重新开始</span>
+    </div>
+	<script src="js/require.js" data-main="js/main"></script>
+</body>
+</html>
