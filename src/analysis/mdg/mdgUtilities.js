@@ -190,7 +190,7 @@ function retrieveModuleDependenciesOfModule(inputFiles, moduleDependenceGraph, i
 			
 			// console.log()
 			// console.log(adjacentMDGNode.representedModule.fileName);
-			console.log('e: ' + exportedObjects.length + ' ' + isLibrary);
+			// console.log('e: ' + exportedObjects.length + ' ' + isLibrary);
 
 			//don't filter out imported features in case of a library
 			if(exportedObjects.length > 1 &&
@@ -340,7 +340,7 @@ function retrieveModuleDependenciesOfModule(inputFiles, moduleDependenceGraph, i
 				
 			}
 
-			console.log(exportedObjects.length)
+			// console.log(exportedObjects.length)
 			if(exportedObjects.length === 0) {
 
 				//no property is being used (and thus needs to be exported)

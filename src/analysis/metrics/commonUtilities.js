@@ -513,8 +513,8 @@ function retrieveUsagesOfModuleDefinitionInSystem(referenceFileArray, definition
     let defRefObjs = [];
     ternServer.request(requestDetails, function(error, success) {
 
-        console.log(error);
-        console.log(success);
+        // console.log(error);
+        // console.log(success);
         if(error !== null || Object.keys(success).length === 0) {
 
             return;

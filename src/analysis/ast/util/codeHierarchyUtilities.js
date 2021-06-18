@@ -416,7 +416,7 @@ function retrieveUsagesOfImportedElementInSourceFile(sourceFiles, sourceFile, im
 			// console.log(identifier.value.loc);
 			// // // console.log(identifier.value.range);
 			// console.log(error);
-			console.log(success);
+			// console.log(success);
             if(error !== null || Object.keys(success).length === 0) {
 
 				//tern did not manage to retrieve the used element's definition (overapproximation)

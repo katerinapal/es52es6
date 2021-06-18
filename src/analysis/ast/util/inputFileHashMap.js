@@ -113,7 +113,7 @@ function InputFileHashMap() {
         let hashIndex = this.hash(key);
 
         // console.log(`Resolving ${key} in input file hash map.`);
-        console.log(`#Files in bucket ${hashIndex}: ${this.buckets[hashIndex].length}`);
+        // console.log(`#Files in bucket ${hashIndex}: ${this.buckets[hashIndex].length}`);
         let inputFile = this.buckets[hashIndex].find(inputFilePair => {
 
             // console.log(inputFilePair[0]);
