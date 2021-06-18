@@ -2659,7 +2659,7 @@ function SourceFile(fileName) {
 
 		});
 
-		console.log(`file: ${this.fileName}. Initial: ${numOfImportedDefs}`);
+		// console.log(`file: ${this.fileName}. Initial: ${numOfImportedDefs}`);
 		return numOfImportedDefs;
 	};
 

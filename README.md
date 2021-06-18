@@ -81,3 +81,31 @@ Open a terminal in the directory `./es52es6` and execute the following commands:
 
 9. Refactor a non-modular ES5 project: <br/>
 `node --max-old-space-size=4096 src/tool/main.js -c refactoring -s plainJS --src ../uki -i -e ../uki/index.js -x node_modules`
+
+<br/>
+
+### Evaluation
+
+This prototype has been tested on the following projects:
+
+| Project | Module Format | Version | Refactored Fork (link)
+| ----------- | ----------- | ----------- | ----------- |
+| UltraTetris | Non-modular ES5 | master@5ad237e | https://github.com/katerinapal/UltraTetris |
+| Hangman | Non-modular ES5 | master@b950842 | https://github.com/katerinapal/Hangman |
+| TicTacToe | Non-modular ES5 | master@346ebe8 | https://github.com/katerinapal/TicTacToe |
+| uki | Non-modular ES5 | master@6cd2e47 | https://github.com/katerinapal/uki|
+| GluttonousSnake | AMD | master@c6b49cb | https://github.com/katerinapal/GluttonousSnake |
+| astix | AMD | master@f0ecc39 | https://github.com/katerinapal/astix |
+| game-of-life | AMD | master@1d83874 | https://github.com/katerinapal/game-of-life |
+| tetrisJS | AMD | master@27712a0 | https://github.com/katerinapal/tetrisJS |
+| dynablaster-js-port | AMD | master@5b5052e | https://github.com/katerinapal/dynablaster-js-port |
+| backbone-tableview | CommonJS | master@0c26357 | https://github.com/katerinapal/backbone-tableview |
+| easystarjs | CommonJS | v0.4.3 | https://github.com/katerinapal/easystarjs |
+| geojsonhint | CommonJS | v.2.0.0 | https://github.com/katerinapal/geojsonhint |
+| express-session | CommonJS | v1.15.6 | https://github.com/katerinapal/session |
+| underscore.string | CommonJS | 3.3.4 | https://github.com/katerinapal/underscore.string |
+| messy | CommonJS | 6.11.0 | https://github.com/katerinapal/messy |
+| virtual-dom | CommonJS | v2.1.1 | https://github.com/katerinapal/virtual-dom |
+| recipe-parser | CommonJS | master@626f124 | https://github.com/katerinapal/recipe-parser |
+| planck.js | CommonJS | v0.2.7 | https://github.com/katerinapal/planck.js |
+| goojs | CommonJS | v0.16.8 | https://github.com/katerinapal/goojs |
